@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PECL :: Package :: amqp 2.0.0</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://pecl.php.net/feeds/latest.rss">
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+<body >
+
+<div><a id="TOP"></a></div>
+
+<table class="head" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td class="head-logo">
+            <a href="/"><img src="/img/peclsmall.gif" alt="PECL :: The PHP Extension Community Library" width="106" height="55" style="margin: 5px;"></a><br>
+        </td>
+
+        <td class="head-menu">
+
+                            <a href="/login.php" class="menuBlack">Login</a>
+            
+            &nbsp;|&nbsp;
+            <a href="/packages.php" class="menuBlack">Packages</a>
+            &nbsp;|&nbsp;
+            <a href="/support.php" class="menuBlack">Support</a>
+            &nbsp;|&nbsp;
+            <a href="/bugs/" class="menuBlack">Bugs</a>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="head-search" colspan="2">
+            <form method="post" action="/search.php">
+                <p class="head-search"><span class="accesskey">S</span>earch for
+                    <input class="small" type="text" name="search_string" value="" size="20" accesskey="s">
+                    in the
+                    <select name="search_in" class="small">
+                        <option value="packages">Packages</option>
+                        <option value="site">This site (using Google)</option>
+                        <option value="developers">Developers</option>
+                        <option value="pecl-dev">Developer mailing list</option>
+                        <option value="pecl-cvs">SVN commits mailing list</option>
+                    </select>
+                    <input type="image" src="/img/small_submit_white.gif" alt="search" style="vertical-align: middle;">&nbsp;<br>
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<table class="middle" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="sidebar_left">
+            <ul class="side_pages">
+    <li class="side_page"><a href="/" >Home</a></li>
+    <li class="side_page"><a href="/news/" >News</a></li>
+</ul>
+
+            <strong>Documentation:</strong>
+
+<ul class="side_pages">
+    <li class="side_page"><a href="/support.php" >Support</a></li>
+</ul>
+
+            <strong>Downloads:</strong>
+
+<ul class="side_pages">
+    <li class="side_page">
+        <a href="/packages.php" >Browse Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-search.php" >Search Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-stats.php" >Download Statistics</a>
+    </li>
+</ul>
+
+            
+                    </td>
+
+        <td class="content">
+            
+<a href="/packages.php">Top Level</a> :: <a href="/packages.php?catpid=16&catname=Networking">Networking</a>
+    :: <a href="/package/amqp">amqp</a>
+
+    :: <a href="/package/amqp/2.0.0">2.0.0</a>
+
+
+<h2 style="text-align:center">
+    amqp    2.0.0    </h2>
+
+
+<table cellpadding="0" cellspacing="1" style="width: 90%; border: 0px;">
+    <tr>
+        <td style="background-color: #000000">
+            <table cellpadding="2" cellspacing="1" style="width: 100%; border: 0px;">
+                <tr style="background-color: #CCCCCC;">
+                    <th colspan="2">Package Information</th>
+                </tr>
+
+                <tr>
+                    <th valign="top" style="background-color: #cccccc">Summary</th>
+                    <td valign="top" style="background-color: #e8e8e8">Communicate with any AMQP compliant server</td>
+                </tr>
+
+                <tr>
+                    <th valign="top" style="background-color: #cccccc">Maintainers</th>
+                    <td valign="top" style="background-color: #e8e8e8">
+                                                    Lars Strojny                                                            &lt;<a href="/account-mail.php?handle=lstrojny">
+                                    lstrojny at php dot net                                </a>&gt;
+                                                        (lead)
+                                                                                        [<a href="/wishlist.php/lstrojny">wishlist</a>]
+                                                        [<a href="/user/lstrojny">details</a>]<br>
+                                                    Bohdan Padalko                                                        (developer)
+                                                                                    [<a href="/user/pinepain">details</a>]<br>
+                                                    Pieter de Zwart                                                        (lead)
+                                                            [inactive]
+                                                                                    [<a href="/user/pdezwart">details</a>]<br>
+                                            </td>
+                </tr>
+
+                <tr>
+                    <th valign="top" style="background-color: #cccccc">License</th>
+                    <td valign="top" style="background-color: #e8e8e8"><a href="https://php.net/license/3_01.txt">PHP License</a></td>
+                </tr>
+
+                <tr>
+                    <th valign="top" style="background-color: #cccccc">Description</th>
+                    <td valign="top" style="background-color: #e8e8e8">This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</td>
+                </tr>
+
+                                    <tr>
+                        <th valign="top" style="background-color: #cccccc">Homepage</th>
+                        <td valign="top" style="background-color: #e8e8e8">
+                            <a href="https://github.com/php-amqp/php-amqp">
+                                https://github.com/php-amqp/php-amqp                            </a>
+                        </td>
+                    </tr>
+                
+                                    <tr>
+                        <th valign="top" style="background-color: #cccccc">
+                            Release notes<br>
+                            Version 2.0.0<br>
+                            (stable)
+                        </th>
+                        <td valign="top" style="background-color: #e8e8e8">
+                            Notable changes&colon;<br><br> - Fix various API oddities&comma; see https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;tree&sol;v2&period;0&period;0&sol;UPGRADING&period;md for details<br> - Remove support for PHP 5<br> - Various bug fixes<br><br>&quest;&quest;&quest;&quest;Most use-cases should not require much changes from 1&period;x but check out<br>https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;tree&sol;v2&period;0&period;0&sol;UPGRADING&period;md for a detailed upgrade guide<br><br><br>All changes &lpar;chronologically&rpar;&colon;<br><br> - CentOS development environment &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;467&rpar;<br> - Ubuntu development containers &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;466&rpar;<br> - Test against upcoming PHP 8&period;3 &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;465&rpar;<br> - Make test host configurable &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;464&rpar;<br> - Cosmetics on type functions &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;commit&sol;350202f&rpar;<br> - Configurable serialization&sol;deserialization depth &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;463&rpar;<br> - Allow bitmask flags arguments to be nullable where previously AMQP&lowbar;NOPARAM&sol;zero was required &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;462&rpar;<br> - Fix generated commit URLs in changelogs &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;commit&sol;4ee6159&rpar;<br> - Handle nested AMQP value serialization&sol;deserialization &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;461&rpar;<br> - Document lack of reliability of AMQPConnection&colon;&colon;isConnected &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;306&rpar;<br> - Prevent reuse of channel ID of broken channels &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;460&rpar;<br> - Gracefully handle zero as a heartbeat value &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;459&rpar;<br> - Build with the clang compiler on CI &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;457&rpar;<br> - Include stdint&period;h for PHP &gt;&equals; 8&period;0 on Windows &lpar;Jan Ehrhardt&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;456&rpar;<br> - Fix segfault in setPort &lpar;Remi Collet &lt;remi&commat;remirepo&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;455&rpar;<br> - Document BC changes &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - Document pseudo-bool method changes &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - Fix mangled header on MacOS &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;60&rpar;<br> - Validate argument parsing&comma; add AMQPExchange&colon;&colon;removeArgument&lpar;&rpar; and AMQPQueue&colon;&colon;removeArgument&lpar;&rpar; &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;452&rpar;<br> - Skip SSL tests if certificates are missing &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;450&rpar;<br> - Check coding style and formatting of stub files &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;447&rpar;<br> - Parallelize test execution &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;444&rpar;<br> - Deterministic configuration for PHP CLI &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;443&rpar;<br> - Fix tag creation during release management &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - Move test-report&period;sh into infra &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - The big fat API renovation &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;437&rpar;<br> - Handle alpha&sol;beta stability correctly &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;5546436&rpar;<br> - Expose better version information &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;438&rpar;<br> - Auto-format the codebase &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;436&rpar;<br> - More consistent return types for AMQPEnvelope &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;435&rpar;<br> - Update stubs &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - Fix parameter error handling in AMQPConnection and AMQPChannel &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;434&rpar;<br> - Increase credentials and identifier limits &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;433&rpar;<br> - Reliably clear consumer tag on AMQPQueue&colon;&colon;cancel &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;432&rpar;<br> - Ignore failures on experimental builds &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;25&rpar;<br> - Update branch name &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;7&rpar;<br> - Bump shivammathur&sol;setup-php from 2&period;25&period;3 to 2&period;25&period;4 &lpar;dependabot&lbrack;bot&rsqb;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;431&rpar;<br> - PHP 8&period;2 refactorings &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;430&rpar;<br> - Fix php version check for static building &lpar;Misha Kulakovsky &lt;m&commat;klkvsk&period;ru&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;425&rpar;<br> - Fix stub exception class &lpar;closes &num;427&rpar; &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar;<br> - Document custom connection name in stubs &lpar;Lars Strojny &lt;lars&commat;strojny&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;700000&rpar;<br> - Expose Delivery Mode through constants &lpar;Fl&aacute;vio Heleno &lt;flaviohbatista&commat;gmail&period;com&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;420&rpar;<br> - Fix deprecation issue in PHP 8&period;1 for &dollar;consumerTag argument to AMQPQueue&colon;&colon;consume&lpar;&rpar; method &lpar;Liviu-Ionut Iosif&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;421&rpar;<br> - Fix&colon; Deprecated&colon; Creation of dynamic property &lpar;8&period;2&rpar; &lpar;Remi Collet &lt;remi&commat;remirepo&period;net&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;418&rpar;<br> - Fix AMQPEnvelope&colon;&colon;getDeliveryTag&lpar;&rpar; return type &lpar;Fl&aacute;vio Heleno &lt;flaviohbatista&commat;gmail&period;com&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;415&rpar;<br> - Fix ack&sol;nack&sol;reject param documentation &lpar;Fl&aacute;vio Heleno &lt;flaviohbatista&commat;gmail&period;com&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;414&rpar;<br> - Mention time units in all timeout-related methods &lpar;Andrii Dembitskyi &lt;andrew&period;dembitskiy&commat;gmail&period;com&gt;&rpar; &lpar;https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;issues&sol;410&rpar;<br><br>For a complete list of changes see&colon;<br>https&colon;&sol;&sol;github&period;com&sol;php-amqp&sol;php-amqp&sol;compare&sol;v1&period;11&period;0&period;&period;&period;v2&period;0&period;0                        </td>
+                    </tr>
+                
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<br>
+<table border="0" cellspacing="3" cellpadding="3" height="48" width="90%" align="center">
+    <tr>
+        <td align="center">[ <a href="/get/amqp">Latest Tarball</a> ]</td>
+        <td align="center">[
+                            <a href="/package-changelog.php?package=amqp&amp;release=2&period;0&period;0">
+                    Changelog
+                </a>
+                    ]</td>
+        <td align="center">
+            [ <a href="/package-stats.php?pid=879&amp;rid=&amp;cid=16">
+                View Statistics
+            </a> ]
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+                            [ <a href="https://github.com/php-amqp/php-amqp" target="_blank">Browse Source</a> ]
+                    </td>
+
+        <td align="center">
+                            [ <a href="https://github.com/php-amqp/php-amqp/issues">Package Bugs</a> ]
+                    </td>
+
+        <td align="center">
+                    </td>
+    </tr>
+
+    </table>
+
+<br>
+
+
+<table cellpadding="0" cellspacing="1" style="width: 90%; border: 0px;">
+    <tr>
+        <td style="background-color: #000000">
+            <table cellpadding="2" cellspacing="1" style="width: 100%; border: 0px;">
+                <tr style="background-color: #CCCCCC;">
+                    <th colspan="2">Dependencies for release 2.0.0</th>
+                </tr>
+
+    
+                </table>
+        </td>
+    </tr>
+</table>
+
+
+        </td>
+
+        
+    </tr>
+</table>
+
+<table class="foot" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="foot-bar" colspan="2">
+            <a href="/about/privacy.php" class="menuBlack">PRIVACY POLICY</a>
+            &nbsp;|&nbsp;
+            <a href="/credits.php" class="menuBlack">CREDITS</a>
+            <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="foot-copy">
+            <small>
+                <a href="/copyright.php">Copyright &copy; 2001-2024 The PHP Group</a><br>
+                All rights reserved.<br>
+            </small>
+        </td>
+        <td class="foot-source">
+            <small>
+                Last updated: Thu Mar 21 17:05:02 2024 UTC<br>
+                Bandwidth and hardware provided by: <a href="https://www.pair.com/">pair Networks</a>
+            </small>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
